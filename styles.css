@@ -1,0 +1,93 @@
+.photo{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+.bg{
+	position:absolute;
+	top: 145px;
+	right: 400px;
+   width: 400px;
+
+}
+.section-card{
+	max-width: 700px;
+	margin:180px auto 0px auto;
+}
+.quotes{
+	width: 65px;
+	margin: -10px 0px 0px 55px;
+}
+.curve{
+	width: 400px;
+	margin: -20px 0px 0px 300px;
+}
+.section-card p{
+	margin-top: -23px;
+	position: relative;
+	font-size: 20px;
+	z-index: 2;
+}
+h6{
+	font-weight: bold;
+}
+span{
+	font-weight: normal;
+}
+.btn-container{
+	position: relative;
+	margin: -10px 220px 0px 30px;
+	background-color: white;
+	text-align: center;
+	border-radius: 50px;
+	z-index:2;
+}
+.icon-1{
+	width: 9px;
+}
+.icon-2{
+	width: 10px;
+}
+@media screen and (max-width: 1200px){
+.bg{
+	top: 20%;
+	right: 15%;
+}
+.curve{
+	margin: -20px 0px 0px 100px;
+}	
+}
+@media screen and (max-width: 990px){
+.section-card{
+	width: 100%;
+	max-width: 300px;
+	margin: 100px auto;
+}
+p{
+	width: 350px;
+	text-align: center;
+}
+.curve{
+	margin:-200px 0px 0px 250px;
+}	
+.bg{
+	top: 10%;
+	right: 25%;
+}
+.quotes{
+	margin:40px 0px 0px 0px;
+}
+.btn-container{
+	position: absolute;
+	right: -28%;
+	margin: -10px 190px 0px 10px;
+}	
+}
+@media screen and (max-width: 700px){
+.bg{
+	right: 15%;
+}	
+.curve{
+	margin:-200px 0px 0px 30px;
+}
+}
